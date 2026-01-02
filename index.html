@@ -2,11 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Gonzalo | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basurita Games | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hola, soy Gonzalo 👋</h1>
-  <p>Game developer / Data scientist</p>
+  <div class="container">
+    <header class="header">
+      <img src="logo_big.png" alt="Basurita Games Logo" class="logo">
+      <div class="divider"></div>
+      <p class="about-text">
+        We are <strong>Gonzalo Orellana</strong> and <strong>Martín Prenassi</strong> from La Plata, Argentina 🇦🇷. 
+        We're passionate indie game developers creating fun and engaging experiences. 
+        Join us on our journey as we bring creative games to life!
+      </p>
+      <a href="mailto:basuritagames@gmail.com" class="contact-button">✉️</a>
+      <div class="divider"></div>
+    </header>
+    
+    <main class="content">
+      <h2 class="section-title">Our Games</h2>
+      
+      <div class="games-grid">
+        <a href="https://poki.com/es/g/molly-miner" class="game-card" target="_blank" rel="noopener noreferrer">
+          <div class="game-logo-container">
+            <img src="molly_miner.jpg" alt="Molly Miner" class="game-logo">
+            <div class="game-overlay">
+              <h3 class="card-title">Molly Miner</h3>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://poki.com/es/g/monster-kitchen-merge" class="game-card" target="_blank" rel="noopener noreferrer">
+          <div class="game-logo-container">
+            <img src="monster_kitchen_merge.png" alt="Monster Kitchen Merge" class="game-logo">
+            <div class="game-overlay">
+              <h3 class="card-title">Monster Kitchen Merge</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <section class="dev-section">
+        <h2 class="section-title">Work in progress</h2>
+        
+        <div class="games-grid">
+          <a href="https://poki.com/en/preview/23869792-1e46-4ec2-8d42-e76887d29c22/38f10289-69ed-48be-994a-92e104d9f058" class="game-card" target="_blank" rel="noopener noreferrer">
+            <div class="game-logo-container">
+              <img src="wip.png" alt="Haunted House" class="game-logo">
+              <div class="game-overlay">
+                <h3 class="card-title">Haunted House</h3>
+              </div>
+            </div>
+          </a>
+          
+          <a href="https://poki.com/es/g/chop-orc#utm_source=redirect-en-es" class="game-card" target="_blank" rel="noopener noreferrer">
+            <div class="game-logo-container">
+              <img src="wip.png" alt="Chop Orc" class="game-logo">
+              <div class="game-overlay">
+                <h3 class="card-title">Chop Orc</h3>
+              </div>
+            </div>
+          </a>
+          
+          <a href="https://poki.com/en/preview/a6ae45ea-3b25-417c-a7fc-373a75a2617f/86525657-daa6-46fe-ae7f-1819d77533c9" class="game-card" target="_blank" rel="noopener noreferrer">
+            <div class="game-logo-container">
+              <img src="wip.png" alt="Robo Restaurant" class="game-logo">
+              <div class="game-overlay">
+                <h3 class="card-title">Robo Restaurant</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="divider"></div>
+      <img src="logo.png" alt="Basurita Games" class="footer-logo">
+    </footer>
+  </div>
 </body>
 </html>
